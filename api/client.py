@@ -177,6 +177,7 @@ class Client():
 		params = {
 			'bitrate': brate,
 			'format': fmt,
+			'protocol': '',
 			'track': tra_id
 		}
 		headers = {
