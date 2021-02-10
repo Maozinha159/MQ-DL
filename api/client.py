@@ -12,7 +12,7 @@ class Client():
 			'Referer':'http://localhost:19330/'
 		})
 		self.bases = ['https://api.napster.com/', 'http://direct.rhapsody.com/']
-		self.key = "NTEwNDI1OGUtY2IyMi00MGNmLWIxMjQtYzI2MjVkYWM0ODJh"
+		self.key = "OWJjYjNlMjUtM2Q2OC00MmUxLTkwM2YtNWVmMmUyMGY2OWYy"
 
 	def make_call(self, method, epoint, data=None, params=None, headers=None, i=0):
 		if headers:
@@ -31,9 +31,9 @@ class Client():
 			'grant_type': 'password'
 		}
 		headers = {
-			'Authorization': 'Basic TlRFd05ESTFPR1V0WTJJeU1pMDBNR05tTFdJeE1qUXRZekkyT'
-							 'WpWa1lXTTBPREpoOk56YzNPRE0yWWpVdE1XWTVNQzAwWWpVMkxXSm1P'
-							 'RGN0TXpZd01UYzNOR0U1WkdFMQ=='
+			'Authorization': 'Basic T1dKallqTmxNalV0TTJRMk9DMDBNbVV4TFRrd00yWXROV1ZtT'
+							 'W1VeU1HWTJPV1l5OllqTTBOakkwWkdFdE5XUTJZUzAwWlROa0xUa3pZ'
+							 'MkV0TWpGbE9HSmlPV00yTlRReA=='
 		}
 		j = self.make_call(
 			'POST', 'oauth/token', data=data, headers=headers)
