@@ -181,7 +181,8 @@ class Client():
 			'track': tra_id
 		}
 		headers = {
-			'Authorization': 'Bearer ' + self.token
+			'Authorization': 'Bearer ' + self.token,
+			'Origin': 'https://app.napster.com'
 		}
 		j = self.make_call(
 			'GET', 'v2.2/streams', params=params, headers=headers)
