@@ -182,7 +182,8 @@ class Client():
 		}
 		headers = {
 			'Authorization': 'Bearer ' + self.token,
-			'Origin': 'https://app.napster.com'
+			'Origin': 'https://app.napster.com',
+			'Content-Type': 'application/json'
 		}
 		j = self.make_call(
 			'GET', 'v2.2/streams', params=params, headers=headers)
