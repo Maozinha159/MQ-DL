@@ -1,3 +1,6 @@
+# Important Notice
+MQ-DL has been put on hold. Sorry for the trouble. The latest build is still working as of 12th Feb 21.
+
 # MQ-DL
 [日本語版はこちらです。](https://github.com/Sorrow446/MQ-DL/blob/master/README_ja.md)    
 Tool written in Python to download streamable tracks from mora qualitas (モーラクオリタス).    
